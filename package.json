@@ -1,0 +1,20 @@
+{
+  "name": "the-final-(tailwind)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/main.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "live-server": "^1.2.2",
+    "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
